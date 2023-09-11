@@ -1,0 +1,42 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#notepad {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    resize: none;
+    font-size: 16px;
+}
+
+#saveButton,
+#clearButton {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#saveButton:hover,
+#clearButton:hover {
+    background-color: #0056b3;
+}
